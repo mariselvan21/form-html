@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form >
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars" size="4" multiple>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat" selected>Fiat</option>
+          <option value="tata">Tata</option>
+          <option value="mahindra">mahindra</option>
+          <option value="benz">Benz</option>
+    </select>
+    </form>
+
+    <form>
+        <textarea name="some_content" id="text_content" cols="20" rows="20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur corrupti tempore quam deserunt sunt beatae distinctio illo. Eum, alias quaerat.
+        </textarea>
+    </form>
+    <form>
+        <textarea name="some_content_2" id="text_content_2" style="height:400px; width:300px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum unde, expedita autem laudantium ab ipsum tenetur accusantium tempore ratione dolorum dicta mollitia id facere vero, exercitationem sint quis molestias eum.</textarea>
+    </form>
+
+    <form>
+        <button type="button" onclick="alert('mari')">button</button>
+    </form>
+
+    <form>
+        <fieldset >
+            <legend>form area</legend>
+            <label for="input_box_1">Name</label>
+            <input type="text" id="input_box_1" placeholder="Xxxxxxxx.X">
+            <label for="select_box">Blood group</label>
+            <select name="select_box" id="select_box" multiple size="1" >
+                <optgroup label="positive bloods">
+                    <option value="O">O</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="AB">AB</option>
+                </optgroup>
+                <optgroup label
+                ="negative bloods">
+                    <option value="-A" selected>-A</option>
+                    <option value="-B">-B</option>
+                    <option value="-AB">-AB</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </form>
+
+
+    <form>
+        <label for="name">Name</label>
+        <input list="abcd" id="name">
+        <datalist id="abcd">
+            
+                <option value="atith">
+                <option value="vijay">
+                <option value="vijay sethupathy">
+            
+            
+                <option value="nazriya">
+                <option value="nayanthara">
+                <option value="samantha">
+            
+        </datalist>
+    </form>
+
+
+    <form>
+        <input type="radio" id="chicken" name="non-veg" value="chicken">
+        <label for="chicken">Chicken</label>
+        <input type="radio" id="mutton" name="non-veg" value="mutton">
+        <label for="mutton">Mutton</label>
+        <input type="radio" id="fish" name="non-veg" value="fish">
+        <label for="fish">Fish</label>
+    </form>
+    <form>
+        <input type="checkbox" id="chicken_briyani" name="cbriyani" value="chicken briyani">
+        <label for="chicken_briyani">Chicken Briyani</label>
+        <input type="checkbox" id="mutton_briyani" name="mbriyani" value="mutton briyani">
+        <label for="mutton_briyani">Mutton Briyani</label>
+        <input type="checkbox" id="fish_briyani" name="fbriyani" value="fish briyani">
+        <label for="fish_briyani">Fish Briyani</label>
+    </form>
+    <!-- <p name="mari">hi i am mari</p> -->
+
+    <form action="/action_page.php" target="_blank">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+
+      
+</body>
+</html>
