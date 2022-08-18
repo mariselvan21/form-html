@@ -67,4 +67,10 @@ The list attribute of the <input> element, must refer to the id attribute of the
     color: red;
 } */
 
+body
+{
+    width: 50%;
+    margin-left: 25%;
+}
+
                 
